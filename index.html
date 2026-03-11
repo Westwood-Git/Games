@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站一个</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>网页链接</h1>
+        
+        <div class="links">
+            
+            <div class="link-item">
+                <a href="LogicPuzzle/index.html" target="_blank">拼图解谜器</a>
+                <p class="description">8 × 8 积木</p>
+            </div>
+            
+            <div class="link-item">
+                <a href="MohrCircle/index.html" target="_blank">莫尔应力圆</a>
+                <p class="description">旋转 方块 圆圈</p>
+            </div>
+
+            <div class="link-item">
+                <a href="Snake/index.html" target="_blank">贪吃蛇</a>
+                <p class="description">上 下 左 右</p>
+            </div>
+
+            <div class="link-item">
+                <a href="Torsion/index.html" target="_blank">圆轴扭转变形</a>
+                <p class="description">转 转 转</p>
+            </div>
+            
+            <div class="copyright">
+                  <p>Copyright &copy; 2026 Build for Nadal</p>
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #007db5;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .link-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .link-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        a {
+            font-size: 1.2rem;
+            color: #2a9d8f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            color: #e76f51;
+        }
+        
+        .description {
+            color: #666;
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+    </style>
+    
+</html>
